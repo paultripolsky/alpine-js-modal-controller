@@ -1,0 +1,22 @@
+.modal {
+	background: rgba(0, 0, 0, 0.4);
+	
+	//.modal__content
+	
+	&__content {
+		background: white;
+		border-radius: 8px;
+		padding: 24px 24px 48px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	&__close-btn {
+		align-self: flex-end;
+		margin: 0 12px 12px;
+	}
+	
+	&__main-btn {
+		margin-top: 24px;
+	}
+}

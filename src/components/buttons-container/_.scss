@@ -1,0 +1,26 @@
+.buttons-container {
+	padding: 24px 0 0 0;
+	//.buttons-container__title
+	
+	&__title{
+		margin: 0;
+	}
+	
+	//.buttons-container__description
+	
+	&__description {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 400;
+		margin: 12px 0 0 0;
+	}
+	
+	//.buttons-container__description
+	
+	&__items {
+		margin-top: 14px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 12px;
+	}
+}

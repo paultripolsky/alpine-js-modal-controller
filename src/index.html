@@ -8,7 +8,70 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>Webpack</h1>
-	<div class="image"></div>
+	<div class="container">
+		<div class="buttons-container">
+			<h2 class="title buttons-container__title">Buttons that open modals with animation</h2>
+			<p class="buttons-container__description">The name of the button matches the name of the animation</p>
+			<div class="buttons-container__items">
+				<a class="main-btn js-modal-trigger" href="#" role="button" data-modal="modal1">Fade in / Fade out</a>
+				<a class="main-btn js-modal-trigger" href="#" role="button" data-modal="modal2">Fade left in / Fade left out</a>
+				<a class="main-btn js-modal-trigger" href="#" role="button" data-modal="modal3">Fade up in / Fade up out</a>
+				<a class="main-btn js-modal-trigger" href="#" role="button" data-modal="modal4">Modal inside modal with dynamic z-index</a>
+			</div>
+		</div>
+		<div class="modals-container">
+			<div class="modal js-modal" data-modal="modal1" modal-animationIn="fade-in" modal-animation-duration="500" modal-animationOut="fade-out">
+				<div class="container">
+					<div class="modal__content js-modal__content">
+						<a href="#" class="close-btn modal__close-btn js-modal-close" data-modal="modal1">
+							<strong>X</strong>
+						</a>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque praesentium vitae? Dolore, eligendi enim eos fuga id magni mollitia nostrum numquam omnis pariatur recusandae repellat repellendus voluptate? Blanditiis corporis cupiditate deserunt, excepturi inventore odit quam quibusdam repellendus temporibus totam? Et explicabo facilis, maxime molestias odio optio quas quasi rerum?
+					</div>
+				</div>
+			</div>
+			<div class="modal js-modal" data-modal="modal2" modal-animationIn="fade-left-in" modal-animation-duration="500" modal-animationOut="fade-left-out">
+				<div class="container">
+					<div class="modal__content js-modal__content">
+						<a href="#" class="close-btn modal__close-btn js-modal-close" data-modal="modal2">
+							<strong>X</strong>
+						</a>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque praesentium vitae? Dolore, eligendi enim eos fuga id magni mollitia nostrum numquam omnis pariatur recusandae repellat repellendus voluptate? Blanditiis corporis cupiditate deserunt, excepturi inventore odit quam quibusdam repellendus temporibus totam? Et explicabo facilis, maxime molestias odio optio quas quasi rerum?
+					</div>
+				</div>
+			</div>
+			<div class="modal js-modal" data-modal="modal3" modal-animationIn="fade-up-in" modal-animation-duration="500" modal-animationOut="fade-up-out">
+				<div class="container">
+					<div class="modal__content js-modal__content">
+						<a href="#" class="close-btn modal__close-btn js-modal-close" data-modal="modal3">
+							<strong>X</strong>
+						</a>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque praesentium vitae? Dolore, eligendi enim eos fuga id magni mollitia nostrum numquam omnis pariatur recusandae repellat repellendus voluptate? Blanditiis corporis cupiditate deserunt, excepturi inventore odit quam quibusdam repellendus temporibus totam? Et explicabo facilis, maxime molestias odio optio quas quasi rerum?
+					</div>
+				</div>
+			</div>
+			<div class="modal js-modal" data-modal="modal4" modal-animationIn="fade-up-in" modal-animation-duration="500" modal-animationOut="fade-up-out">
+				<div class="container">
+					<div class="modal__content js-modal__content">
+						<a href="#" class="close-btn modal__close-btn js-modal-close" data-modal="modal4">
+							<strong>X</strong>
+						</a>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque praesentium vitae? Dolore, eligendi enim eos fuga id magni mollitia nostrum numquam omnis pariatur recusandae repellat repellendus voluptate? Blanditiis corporis cupiditate deserunt, excepturi inventore odit quam quibusdam repellendus temporibus totam? Et explicabo facilis, maxime molestias odio optio quas quasi rerum?
+						<a class="main-btn modal__main-btn js-modal-trigger" href="#" data-modal="modal5">Open modal inside modal</a>
+					</div>
+				</div>
+			</div>
+			<div class="modal js-modal" data-modal="modal5" modal-animationIn="fade-left-in" modal-animation-duration="500" modal-animationOut="fade-left-out">
+				<div class="container">
+					<div class="modal__content js-modal__content">
+						<a href="#" class="close-btn modal__close-btn js-modal-close" data-modal="modal5">
+							<strong>X</strong>
+						</a>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque praesentium vitae? Dolore, eligendi enim eos fuga id magni mollitia nostrum numquam omnis pariatur recusandae repellat repellendus voluptate? Blanditiis corporis cupiditate deserunt, excepturi inventore odit quam quibusdam repellendus temporibus totam? Et explicabo facilis, maxime molestias odio optio quas quasi rerum?
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

@@ -17,7 +17,7 @@ module.exports = {
 		open: true,
 		hot: true,
 	},
-	entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index')],
+	entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'main')],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		clean: true,
